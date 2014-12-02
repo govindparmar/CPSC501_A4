@@ -440,6 +440,6 @@ int main(int argc, char *argv[])
 	four1(oC - 1, ipow, -1);
 	end = GetTickCount();
 	printf("Finished in %d milliseconds.\n", end - start);
-	writeWAV(oC, slen+slenM-1, argv[3]);
+	writeWAV(oC, ipow, argv[3]);
 	return 0;
 }
